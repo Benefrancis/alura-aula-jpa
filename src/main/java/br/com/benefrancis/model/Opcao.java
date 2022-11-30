@@ -5,7 +5,7 @@ import java.util.List;
 
 public enum Opcao {
 
-    CADASTRAR_CATEGORIA(1, "Nova Categoria"),
+    CADASTRAR_CATEGORIA(1, "Cadastrar Categoria"),
     CADASTRAR_PRODUTO(2, "Cadastrar Produto"),
     ALTERAR_PRODUTO(3, "Alterar dados do Produto"),
     CONSULTAR_PRODUTO_POR_ID(4, "Consultar Produto Por ID"),

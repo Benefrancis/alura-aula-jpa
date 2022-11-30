@@ -19,7 +19,6 @@ public class ProdutoService {
     }
 
     public static Produto findById(Long id) {
-
         return repo.findById(id);
     }
 
