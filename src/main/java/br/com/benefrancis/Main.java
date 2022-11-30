@@ -34,7 +34,7 @@ public class Main {
     private static void consultarprodutoporcategoria() {
         Categoria categoria = CategoriaView.select(null);
         List<Produto> produtos = ProdutoService.findByCategoria(categoria);
-        if (produtos.size() == 0) JOptionPane.showMessageDialog(null, "Produto não encotrado");
+        if (produtos.size() == 0) JOptionPane.showMessageDialog(null, "Não encontramos produtos cadastrados para a categoria " + categoria.getNome());
         produtos.forEach(System.out::println);
         produtos.forEach(ProdutoView::show);
     }
