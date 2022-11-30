@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class OpcaoView {
 
-    public static Opcao getOpcoes() {
+    public static Opcao select() {
         // @formatter:off
         Opcao ret = (Opcao) JOptionPane.showInputDialog(
                 null, // componente pai. Como não temos será null
